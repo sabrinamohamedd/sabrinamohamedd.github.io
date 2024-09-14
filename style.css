@@ -17,7 +17,7 @@ ul {
     margin: 0px
 }
 body > header {
-    background-color: orange;
+    background-color: rgb(4, 154, 229);
     color: white;
     display: flex;
     height: 10vh;
@@ -69,9 +69,13 @@ h2 {
     text-align: center;
 }
 body > footer {
-    background-color: orange;
+    background-color: rgb(4, 154, 229);
     display: flex;
 
+}
+
+footer {
+    color: white;
 }
 
 #footer-ul{
