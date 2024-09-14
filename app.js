@@ -6,6 +6,4 @@ document.addEventListener ("DOMContentLoaded", ( ) => {
             image.width = 100;
             image.height = 100;
         })
-    }
-
-} )
+    
