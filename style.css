@@ -75,7 +75,7 @@ body > footer {
 }
 
 footer {
-    color: white;
+    color: black;
 }
 
 #footer-ul{
@@ -94,6 +94,34 @@ footer {
 }
 
 
-img {
-    border-radius: 100%;
-}
+.feta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .korma {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .lasagna {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .dessert {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  footer > h2 {color:white;}
+
+      
