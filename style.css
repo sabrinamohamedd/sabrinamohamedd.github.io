@@ -4,8 +4,9 @@ body {
     font-size: 1.5 vw;
 }
 
+
 h1{
-    font-family: "Permanent Marker" sans-serif;
+    font-family: "Lobster", sans-serif;;
     padding: 8 px;
     margin: 0px;
     width: 16%;
@@ -17,7 +18,8 @@ ul {
     margin: 0px
 }
 body > header {
-    background-color: rgb(4, 154, 229);
+    background-color: rgb(197, 169, 247);;
+
     color: white;
     display: flex;
     height: 10vh;
@@ -69,13 +71,13 @@ h2 {
     text-align: center;
 }
 body > footer {
-    background-color: rgb(4, 154, 229);
+    background-color: rgb(197, 169, 247);;
     display: flex;
 
 }
 
-footer {
-    color: black;
+footer > h2 {
+    color:white
 }
 
 #footer-ul{
@@ -98,7 +100,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 700px;
   }
 
   .korma {
@@ -106,22 +108,44 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    width: 700px;
   }
 
   .lasagna {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 700px;
   }
 
   .dessert {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 700px;
+    
   }
 
-  footer > h2 {color:white;}
+  footer > h2 {color:rgb(0, 0, 0);}
+  
+.dessertchef {
+    clip-path: circle();
+    width: 75px;
+}
+.kormachef {
+    clip-path: circle();
+    width: 80px;
+}
 
+.lasagnachef {
+    clip-path: circle();
+    width: 100px;
+}
+
+.fetachef {
+    clip-path: circle();
+    width: 94px;
+}
+
+footer > h1{ color: white;}
       
